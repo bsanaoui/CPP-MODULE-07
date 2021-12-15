@@ -1,4 +1,4 @@
-NAME = SimpleTemplate
+NAME = Array
 
 CC = clang++
 FLAGS = -Werror -Wextra -Wall

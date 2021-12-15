@@ -1,4 +1,4 @@
-NAME = SimpleTemplate
+NAME = Iter
 
 CC = clang++
 FLAGS = -Werror -Wextra -Wall
