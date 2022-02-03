@@ -13,7 +13,7 @@ int main(int, char**)
         numbers[i] = value;
         mirror[i] = value;
     }
-    //SCOPE
+    // SCOPE
     {
         Array<int> tmp = numbers;
         Array<int> test(tmp);
@@ -29,8 +29,8 @@ int main(int, char**)
     }
     
     // ---------- Print Values -------------- //
-    //  for (int i = 0; i < MAX_VAL; i++)
-    //     std::cout << numbers[i] << ", ";
+     for (int i = 0; i < MAX_VAL; i++)
+        std::cout << numbers[i] << ", ";
     // -------------------------------------- //
 
     try
